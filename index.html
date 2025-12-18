@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+
+  
+    <script >
+
+    //number , string , boolean= true or False  , object , undefined , null , symbol
+         "use strict";  
+   let obj = {
+    r: 90,
+    m: 40,
+    func: function myfunc(numbers) {
+        console.log("the number is" + numbers);
+    }
+
+   }
+   document.addEventListener("click",function click(){
+    console.log("clicked");
+    //alert(" hello ");
+    let conf = confirm("are you sure ?");
+    console.log(conf);
+   });
+   //for (let index = 0; index < aray.length; index++) {
+   //  const element = aray[index];
+   //  console.log(element);
+   //}
+
+
+   let arr = [10,20,30,40,50];
+   console.log(this);
+    //function myfunc(numbers)
+     {
+
+       // console.log("the number is" + numbers);
+      }
+      let mobj ={
+        a: 100,
+       myfunc: function (number) {
+        console.log("the number is" + number);
+        }
+      }
+     mobj.myfunc();
+     console.log(mobj.a);
+     setTimeout(() => {
+        console.log("what the hell");
+     }, 3000);
+     console.log("end of script");
+   
+
+   </script>
+   </head>
+   <body>
+    <h>hello my name is Nabin Damase</h>
+</body>
+</html>
