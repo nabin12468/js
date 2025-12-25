@@ -6,7 +6,6 @@
 
  //Is psttern ka main fayda hai data hiding (encapsulation) aur clean structure,taaki code secure,reusable aur manageable ban sake.
 
- let c = "nabin"
- let b= "shrestha"
-
- 
+ function (){
+    let a =12
+ }
