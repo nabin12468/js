@@ -10,4 +10,67 @@
     background-color: rgb(25, 24, 24);
     justify-content: space-evenly;
 }
+.ul{
+    background-color: brown;
+    height:200px;
+    width:200px;
 
+}
+.box1{
+    background-color: rgb(255, 0, 0);    
+    height: 100px;
+    width: 100px;
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+.box3{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+.box4{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}
+.box-container {
+    /* The parent container needs a defined width and relative positioning */
+    width: 300px;
+    position: relative; /* This is crucial for absolute positioning of the button */
+    border: 2px solid #ccc;
+    padding: 15px;
+    background-color: #f9f9f9;
+    /* Optional: add some height to make the box clearly visible */
+    height: 150px; 
+}
+
+.content-box {
+    /* Ensures content stays within bounds if needed */
+    padding-bottom: 40px; /* Add padding to prevent text overlap with the button */
+}
+
+.inner-button {
+    position: absolute; /* Position the button relative to the parent container */
+    bottom: 10px;      /* Align to the bottom, 10px up */
+    right: 10px;       /* Align to the right, 10px in */
+    /* Basic button styling */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    margin-top: 100px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.inner-button:hover {
+    background-color: #0056b3;
+    padding: 100px;
+    margin: 100px;
+    
+}
+
+    
