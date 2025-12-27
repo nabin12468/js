@@ -72,5 +72,13 @@
     margin: 100px;
     
 }
-
-    
+nav.menu-container {
+    background-color: #da1b1b;
+    overflow: hidden;
+    position: relative;
+}
+   .a{
+ margin: 100px;
+ padding: 100px;
+ gap: 100px;
+   } 
