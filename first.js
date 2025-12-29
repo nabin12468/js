@@ -22,5 +22,39 @@
  //Temporal Dead Zone (TDZ)
    //let and const ke sath hum TDZ ka samna karte hain,jo ek aisa period hota hai jisme variable declare to ho chuka hota hai lekin uska initialization nahi hua hota.
 
-   console.log(x); // ReferenceError: Cannot access 'x' before initialization
-   let x = 10;
+   //console.log(x); // ReferenceError: Cannot access 'x' before initialization
+   //let x = 10;
+
+
+   // Hoisting impact per type
+   // hpisting   -> ek variable ko jab js mein banaate hai to wo variable do hisab mein toot jaata hai and uska declare part upar chala jaata hai and uska initialization part neeche reh jata hai
+
+
+    console.log(y); // undefined
+
+    var y = 20;
+
+    //var  -> hoist  -> undefined
+    //let  -> hoist  -> X
+    //const -> hoist  -> X
+
+
+    
+
+
+    //console.log(nm)
+//var nm = "Naveen";
+
+//console.log(nm)
+//let nm = "Naveen";  // reference error
+
+
+/*let a = 10;
+{
+    let a = 20;
+    console.log("Inside",a); // 20
+}
+console.log("Outside",a); // 20  */
+
+
+
