@@ -25,4 +25,40 @@ console.log(a); // [1,2,3,4]
 */
 
 // number, string, boolean, null, undefined, symbol, bigInt
+
+// null ka matlab hai aapne jaan boojh kar koi value nahi di
+// undefined ka matkab ki aapne ek variable banaaya  lekin usme koi value assign nahi ki to jo value by default milegi wo undefined hogi
+
+
+//symbol  -> unique immutable value
+
+/* let obj = {
+    uid: 1,
+    name: "Naveen",
+    age: 24,
+}
+ let u1 = Symbol("uid");
+  obj[u1] = 2; */
+
+
+
+
+/*future mein hum koi libraries use karenge ab is case mein un  libraries
+  mein kai baar kuch fields hoti  hai jinse similar hum bhi banaa dete hain
+  aur galti se humaaari banaai hui fields us library ki orginal fields ko change kar deti hain */
+ 
+  //let u1 = Symbol("id");
+  //let u2 = Symbol("id");
+
+
+  // bigint
+  let = 987604836447381n;
+  
+
+
+
+
+
 // array, object, functions
+
+
