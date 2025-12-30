@@ -52,7 +52,9 @@ console.log(a); // [1,2,3,4]
 
 
   // bigint
-  let = 987604836447381n;
+  let  a= 987604836447381n;
+  a =2 +a;
+  console.log(a);
   
 
 
