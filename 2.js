@@ -70,12 +70,24 @@ console.log(a); // [1,2,3,4]
 //Dynamic typing  -> js mein static typing nahi hai and yaha par hai
 //dynamic typing jiska matlab hai aap data ko change kr skte ho kunki yahha par dynamic data types hai
 
-let a = 10; // number
+/*let a = 10; // number
 a =true; // boolean
 a ="Naveen"; // string
 a = null; // null
 a = undefined; // undefined
+*/
 
+
+// Type coercion (== vs ===)
+// Truthy and Falsy values
+
+
+// Type coercion -> concept jis mein aapka ek type automatically convert hojaayega
+
+//"5" + 1 -> it work two way add and concatenate
+
+
+//"5" - 1 -> it work only one way subtract
 
 
 
