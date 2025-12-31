@@ -91,3 +91,17 @@ a = undefined; // undefined
 
 
 
+// Truthy and Falsy values
+
+// falsy values -> 0, "", null, undefined, NaN, false,document.all
+
+// truthy values -> "hello", 1, -1, [], {}, function(){}
+
+// practice:true+false
+
+// false -> 0
+// true -> 1     => 1+0=1
+// 5 + "5"
+
+// "5" + 5  -> "55"  (concatenate)
+// "5" - 5  -> 0     (subtract)
