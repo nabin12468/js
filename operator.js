@@ -44,7 +44,7 @@ if (a > 5 && b < 25) {
 }
 else {  
     console.log("At least one condition is false");
-} */
+} 
 
 // (Q) 
 let isAdmin = true;
@@ -54,7 +54,7 @@ if (isAdmin || isLoggedIn) {
 }
 else {
     console.log("Access denied");
-}
+}  
 
 (Q)  
 let temp = 35;
@@ -64,3 +64,25 @@ if (!(temp < 30)) {
 else {
     console.log("It's hot outside");
 }
+
+(Q) 
+let a = 0;
+
+if (a) {
+    console.log("a is truthy");
+}
+else {
+    console.log("a is falsy");
+} 
+//(Q)
+let score = 85;
+let grade = (score >= 90) ? 'A' :
+            (score >= 80) ? 'B' :
+            (score >= 70) ? 'C' :
+            (score >= 60) ? 'D' : 'F';
+console.log("Grade:", grade);  */
+
+
+//(Q)
+
+let 
