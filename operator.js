@@ -24,7 +24,7 @@
 
     let a=13;
     ++a; //13
-    a++; //14  */
+    a++; //14  
 
 
     //tetnary operators
@@ -33,3 +33,34 @@
 12>13 ? console.log("true") : console.log("false");  
    
 
+
+
+//practice 
+
+ //Q)  let a=10;
+let b=20;
+if (a > 5 && b < 25) {
+    console.log("Both conditions are true");
+}
+else {  
+    console.log("At least one condition is false");
+} */
+
+// (Q) 
+let isAdmin = true;
+let isLoggedIn = false;
+if (isAdmin || isLoggedIn) {
+    console.log("Access granted");
+}
+else {
+    console.log("Access denied");
+}
+
+(Q)  
+let temp = 35;
+if (!(temp < 30)) {
+    console.log("It's not hot outside");
+}
+else {
+    console.log("It's hot outside");
+}
