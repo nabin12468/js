@@ -89,7 +89,7 @@ let  points = 10;
 
 let status = points > 100 ? "Gold Member" : "Regular Member";
 
-console.log("Status:", status); */
+console.log("Status:", status); 
 
 //Q
 
@@ -98,4 +98,27 @@ let hasToken = false;
 
 let access = isLoggedIn && hasToken ? "Access Granted" : "Access Denied";
 
-console.log("Access:", access);
+console.log("Access:", access);  
+
+
+
+//(Q)
+ let x = 5;
+ x++;
+    console.log(x); //5 
+
+
+//(Q)
+    let x = 5;
+    let y = ++x;
+    console.log(x,y);  
+
+//(Q)
+    let m = 5;
+    let n = m++;
+    console.log(m,n);
+
+    */
+
+    
+    
