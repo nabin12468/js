@@ -80,9 +80,22 @@ let grade = (score >= 90) ? 'A' :
             (score >= 80) ? 'B' :
             (score >= 70) ? 'C' :
             (score >= 60) ? 'D' : 'F';
-console.log("Grade:", grade);  */
+console.log("Grade:", grade);  
 
 
 //(Q)
 
-let 
+let  points = 10;
+
+let status = points > 100 ? "Gold Member" : "Regular Member";
+
+console.log("Status:", status); */
+
+//Q
+
+let isLoggedIn = true;
+let hasToken = false;
+
+let access = isLoggedIn && hasToken ? "Access Granted" : "Access Denied";
+
+console.log("Access:", access);
