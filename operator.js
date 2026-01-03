@@ -118,7 +118,47 @@ console.log("Access:", access);
     let n = m++;
     console.log(m,n);
 
-    */
+    
 
+    //(Q)
+    let p = 10;
+    console.log(p--); //10
+    console.log(p); //9
+
+
+    //(Q)
+    let q = 10;
     
-    
+     let result = q++ + ++q;
+    console.log(result); //22
+   
+
+
+
+//(Q)
+
+let likes = 100;
+
+function likePost() {
+    return ++likes;
+}
+console.log(likePost()); //101
+console.log(likes)
+
+
+
+
+//(Q)
+
+let count = 3;
+
+if(count-- ===3){
+    console.log("Count is three");
+}   
+else {
+    console.log("Count is not three");
+}
+
+*/
+
+
