@@ -24,8 +24,54 @@
     console.log(i)
 
 }
-      */
+      
 
+
+// while
+
+start
+while(end){
+    //code
+    change
+}
+
+
+
+let i = 1;
+while(i<33){
+    console.log
+    i++;
+}
+
+
+
+// do-while
+
+let i=1;
+do{
+  console.log(i);
+  i++;
+}
+while(i<20) 
+
+    //break
+
+    for (i=1;i<10;i++){
+        console.log(i);
+        if (i===5){
+            break;
+        }
+    }  */
+
+
+        //continue
+    for (i=1;i<10;i++){
+        if (i===5){
+           continue
+            
+        }
+        console.log(i);
+    }
 
 
 
