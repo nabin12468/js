@@ -61,7 +61,7 @@ while(i<20)
         if (i===5){
             break;
         }
-    }  */
+    }  
 
 
         //continue
@@ -73,5 +73,14 @@ while(i<20)
         console.log(i);
     }
 
+  
+*/
+    //(Q)
 
-
+    let i=10
+    while(i>0)
+    {
+        console.log(i)
+        i--
+    
+    }
