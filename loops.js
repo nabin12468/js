@@ -126,4 +126,33 @@ for (let i=1;i<101;i++){
 }
  console.log(sum);
 
- */
+ 
+
+ //print all numbers between 1 to 50 that are divisible by 3
+
+ for(let i=1;i<51;i++){
+    if(i%3===0){
+    console.log(i);
+    }
+    
+ }
+
+ 
+
+ //ask the user for a number and print whether each number from 1 to that number is even or odd.
+ //(e.g., " 1 is odd"," 2 is even", ...)
+
+ let val = prompt("give a number");
+
+ for (let i=1; i<=val; i++){
+    if(i%2 === 0){
+        console.log(`${i} is even`);
+
+    }
+    else{
+        console.log(`${i} is odd`);
+    }
+ }
+    */
+
+ 
