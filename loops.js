@@ -74,7 +74,6 @@ while(i<20)
     }
 
   
-*/
     //(Q)
 
     let i=10
@@ -83,4 +82,24 @@ while(i<20)
         console.log(i)
         i--
     
+    }
+        
+
+    // 1-20 even number 
+
+    for (let i=1;i<21;i++){
+      if(i%2===0){
+        console.log(i)
+      }
+    }
+*/
+
+    //1-15 odd number 
+
+    let i=1;
+    while(i<16){
+        if(i%2===1){
+        console.log(i);
+        }
+        i++;
     }
