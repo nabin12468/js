@@ -92,7 +92,7 @@ while(i<20)
         console.log(i)
       }
     }
-*/
+
 
     //1-15 odd number 
 
@@ -103,3 +103,27 @@ while(i<20)
         }
         i++;
     }
+        
+
+    //print multiplication table of 5
+
+for (let i=1; i<10 ;i++){
+  
+    
+    console.log(`5 * {i}`);
+    
+  
+}
+    
+
+//find the sum of numbers 1 to 100
+
+let sum=0;
+for (let i=1;i<101;i++){
+   sum=sum+i
+       
+ 
+}
+ console.log(sum);
+
+ */
