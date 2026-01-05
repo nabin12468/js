@@ -153,6 +153,31 @@ for (let i=1;i<101;i++){
         console.log(`${i} is odd`);
     }
  }
-    */
+    
 
- 
+
+ //Q1. stop at first multiple of 7 
+
+ //  Write a loop from 1 to 100 that:
+ //. prints each number
+ //  . stops completely when it finds the first number divisible by 1
+
+ for(let i=1; i<101; i++){
+    console.log(i);
+    if(i % 7 === 0){
+        break;
+    }
+    
+ }
+    
+
+
+ for(let i=1; i<101; i++){
+    console.log(i);
+    if(i % 7 === 0){
+        continue;
+    }
+    
+ }
+
+ */
