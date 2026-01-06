@@ -14,7 +14,7 @@ let fnc = function(){
     console.log("dance")
  // function expression
 }
-fnc() */
+fnc() 
 
 // fat arrow fnc
 
@@ -24,3 +24,13 @@ let fnc = () =>{
 
 };
 fnc();
+
+*/
+
+function dance (v1){
+ console.log(`${v1} tu kun hai`);
+
+}
+dance("ghodha")
+dance("cow")
+dance("dog")
