@@ -43,7 +43,7 @@ function add(v1, v2){
 }
 add(551,2)
 
-*/
+
 
 
 //default parameters
@@ -62,3 +62,19 @@ function abc(a,b,c,...val) {
 console.log(a,b,c,val);
 }
 abc(1,2,3,4,5,6);
+
+*/
+
+
+// return = matlab jaha se aaye ho wahi daal denge
+
+function abcd(v){
+    return 12 + v ;
+}
+
+
+
+
+
+let val = abcd(13);
+console.log(val)
