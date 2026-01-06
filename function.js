@@ -25,7 +25,7 @@ let fnc = () =>{
 };
 fnc();
 
-*/
+
 
 function dance (v1){
  console.log(`${v1} tu kun hai`);
@@ -34,3 +34,31 @@ function dance (v1){
 dance("ghodha")
 dance("cow")
 dance("dog")
+
+
+function add(v1, v2){
+
+    console.log(v1 + v2);
+
+}
+add(551,2)
+
+*/
+
+
+//default parameters
+
+function add(v1=0 ,v2=0)
+{
+  console.log(v1+v2);
+}
+add();
+
+//rest
+
+//jub arguments kai saare ho to humein utne hi parameter banaane padega ,issey bachne ke liye,hum rest ka use karte hai ... agar ... function ke parameter space mein lage to wo rest operator
+
+function abc(a,b,c,...val) {
+console.log(a,b,c,val);
+}
+abc(1,2,3,4,5,6);
