@@ -63,7 +63,7 @@ console.log(a,b,c,val);
 }
 abc(1,2,3,4,5,6);
 
-*/
+
 
 
 // return = matlab jaha se aaye ho wahi daal denge
@@ -78,3 +78,25 @@ function abcd(v){
 
 let val = abcd(13);
 console.log(val)
+
+*/
+
+//first class function  -> functions ko  values ki tarah treat kar sakte hai
+
+function abcd(val)
+{
+  val();
+}
+  
+
+abcd(function(){
+
+console.log("hey");
+
+})
+
+
+
+
+
+
