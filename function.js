@@ -79,7 +79,7 @@ function abcd(v){
 let val = abcd(13);
 console.log(val)
 
-*/
+
 
 //first class function  -> functions ko  values ki tarah treat kar sakte hai
 
@@ -91,12 +91,39 @@ function abcd(val)
 
 abcd(function(){
 
-console.log("hey");
+console.log("hey");  this example also of high order function
 
 })
 
 
 
+// high order function -> wo function hota hai jo ki return kare function ya fir accept kare ek function apne parameter mein
 
 
 
+function abcd(val)
+{
+  return function(){
+    console.log("hey how are you")
+  }
+}
+  
+
+abcd()
+
+in high order function hamla ki ta functiion nai  return garna sakxau yaa ta function lai parameter ko rupma accept garna sakxam
+*/
+
+//pure vs impure function 
+
+//aise function jo baahar ki value ko naa badle wo hai pure function  
+
+let a =12;
+function abcd(){
+    console.log("hello");
+
+}
+
+function hui(){     //aise function jo baahar ki value ko badle wo hai impure function  
+    a++;
+}
