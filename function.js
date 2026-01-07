@@ -128,7 +128,7 @@ function hui(){     //aise function jo baahar ki value ko badle wo hai impure fu
     a++;
 }
 
-*/
+
 
 
 //closures  --> ek function jo return kare ek aur function aur return hone waala function humesha use karenga parent function ka koi variable
@@ -140,3 +140,51 @@ function abcd(){
 
     }
 }
+
+
+
+//lexical scoping
+
+function A(){
+  let a =12;
+  function B(){
+    let b=13;
+    function C(){
+      let c = 10;
+    }
+  }
+}
+
+
+
+
+//IIFE(immediately invoked Function Expression)
+
+(function (){
+  console.log("hey");
+})();
+
+
+
+//hoisting difference between declaratiion and expression
+
+
+
+A();
+
+
+function A(){
+  console.log("hii")  //this function declaration is a hoisting 
+}
+
+
+
+
+A();
+
+
+let A = function A(){
+  console.log("hii")  //we can't do hoisting in function expression
+}
+
+*/
