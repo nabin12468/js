@@ -112,7 +112,7 @@ function abcd(val)
 abcd()
 
 in high order function hamla ki ta functiion nai  return garna sakxau yaa ta function lai parameter ko rupma accept garna sakxam
-*/
+
 
 //pure vs impure function 
 
@@ -126,4 +126,17 @@ function abcd(){
 
 function hui(){     //aise function jo baahar ki value ko badle wo hai impure function  
     a++;
+}
+
+*/
+
+
+//closures  --> ek function jo return kare ek aur function aur return hone waala function humesha use karenga parent function ka koi variable
+
+function abcd(){
+    let a = 12;
+  return function(){
+      console.log(a);  //function lai return garxa parent function le ani tyo parent function ko value chai return vako function ma use huna paro teslai closure vanxa.
+
+    }
 }
