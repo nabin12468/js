@@ -187,4 +187,31 @@ let A = function A(){
   console.log("hii")  //we can't do hoisting in function expression
 }
 
+
+
+
+//(Q) convert this function to arrow function 
+let  multiply = (a,b) =>{
+  return a*b;
+}
+
+
+//(Q)
+function A(val){
+console.log(val)  //here val is parameter
+
+}
+A(12)  // 12 is argument
+
+
+
+// guess the output
+
+function sayHi(name = "guest"){
+  console.log("hi",  name);
+
+}
+sayHi();
+
 */
+
