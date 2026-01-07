@@ -213,5 +213,29 @@ function sayHi(name = "guest"){
 }
 sayHi();
 
-*/
 
+
+// use rest parameter to accept any number of scores and return the total.
+
+function A(...scores){
+  let total = 0;
+ scores.forEach(function (val){
+  total = total +val;
+ });
+
+ return total;
+
+ }
+ console.log(A(1,2,3,4))
+
+
+ */
+//(Q)
+ function chekAge(age){
+  if(age<18) return "Too young "
+  return "Allowed";
+  }
+ 
+ console.log(chekAge(11))
+
+ 
