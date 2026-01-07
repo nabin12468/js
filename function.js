@@ -229,7 +229,7 @@ function A(...scores){
  console.log(A(1,2,3,4))
 
 
- */
+ 
 //(Q)
  function chekAge(age){
   if(age<18) return "Too young "
@@ -238,4 +238,46 @@ function A(...scores){
  
  console.log(chekAge(11))
 
- 
+
+
+//(Q) which one is higher order function 
+
+[1,2,3].map(function (x) {
+  return x *2;  //here map is hof
+})
+
+
+
+//(Q)
+
+function outer(){
+  let count = 0;
+  return function(){
+    count++;
+    console.log(count);
+  };
+}
+const counter = outer ();
+counter();
+counter();
+
+
+
+//(Q) Convert this normal function into an IIFE
+
+(function init(){
+  console.log("Initilialized");
+
+}) ();
+
+  
+
+// Write a BMI calculator
+
+function bmi(weight,height){
+  return weight / (height * height);
+
+}
+console.log(bmi(69,1.7).toFixed(2));
+
+*/
