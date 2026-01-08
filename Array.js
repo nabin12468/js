@@ -81,7 +81,6 @@ let newarr = arr.map(function(val){
 
 console.log(newarr)  //new array banauna pary ma map use garna
 
-*/
 
 //filter
 
@@ -93,4 +92,32 @@ let arr = [1,2,3,4,5,6,7,8];
  console.log(newarr)
 
 
- 
+
+//reduce
+
+let arr = [1,2,3,4,5,6];
+
+let ans = arr.reduce(function (accumulator, val){
+    return accumulator + val;
+}, 0);
+
+
+
+
+//find
+
+//some
+
+let arr = [36,55,66,77]
+let any = arr.some(function(val){
+    return val>70;
+});
+console.log(any);
+
+*/
+//every
+let arr = [36,55,66,77]
+let any = arr.every(function(val){
+    return val>70;
+});
+console.log(any);
