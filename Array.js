@@ -55,8 +55,42 @@ arr.sort(function(a,b){
 });
 console.log(arr);
 
+
+
+//forEach
+
+let arr = [1,2,22,11,31];
+arr.forEach(function (val){
+    console.log(val+3);
+});
+
+
+
+
+//map
+let arr = [1,2,22,11,31];
+
+// map srf tab use karna hai job aapko ek naya array banana hai pichhle array ke data ke basis par
+
+
+//map dekhda bitikai auta blank array banaunu parxa
+
+let newarr = arr.map(function(val){
+    if (val >10) return val;
+})
+
+console.log(newarr)  //new array banauna pary ma map use garna
+
 */
 
+//filter
+
+let arr = [1,2,3,4,5,6,7,8];
+ let newarr = arr.filter(function (val){
+
+     if (val > 4) return true;
+ });
+ console.log(newarr)
 
 
-
+ 
