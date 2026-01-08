@@ -280,7 +280,7 @@ function bmi(weight,height){
 }
 console.log(bmi(69,1.7).toFixed(2));
 
-*/
+
 
 // create a reusable discount calculator (HOF)
 
@@ -291,3 +291,20 @@ function discountCalculator(discount) {
 }
 let discounter = discountCalculator(10);
 console.log(discounter(200));
+
+
+
+//create a pure function to trasform a value
+
+function double(val){
+  return val *3;
+}
+console.log(double(15));
+
+*/
+//use IIFE to isolate variables
+
+(function(){
+ const password = "secret password";
+ console.log(password);
+})();
