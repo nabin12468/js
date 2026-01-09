@@ -142,7 +142,7 @@ fruits.push("mango");
 fruits.unshift("pineapple");
 console.log(fruits)
 
-*/
+
 
 
 //insert "Red" and "Blue" at index 1 in this array:
@@ -151,3 +151,27 @@ let colors = ["Green","Yellow"];
 colors.splice(1,0,"Red","Blue");
 console.log(colors)
 
+
+
+//(Q) extract only the middle 3 elements from this array
+
+let items = [1,2,3,4,5,6];
+let newarr = items.slice(1,4);
+console.log(newarr)
+
+
+
+//sort this array alphabetically and then reverse it:
+
+let names = ["Zara","Arjun","Mira","Bhavya"];
+names.sort().reverse();
+console.log(names)
+
+*/
+
+//use .map() to square each number:
+
+ let arr = [1,2,3,4];
+ let newarr = arr.map(function (val){
+    return val * val;
+ });
