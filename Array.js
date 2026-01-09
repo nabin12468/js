@@ -167,7 +167,6 @@ let names = ["Zara","Arjun","Mira","Bhavya"];
 names.sort().reverse();
 console.log(names)
 
-*/
 
 //use .map() to square each number:
 
@@ -175,3 +174,31 @@ console.log(names)
  let newarr = arr.map(function (val){
     return val * val;
  });
+
+ 
+
+ // Destructure this array to get firstName and lastName
+
+ let fullName = ["Harsh", "Damase"];
+ let [firstName, lastName] = fullName;
+ console.log(fullName)
+
+ 
+
+ 
+ //merge two array using spread operator:
+
+ let a =[1,2];
+ let b= [3,4];
+
+ let c =[...a,...b];
+
+
+ */
+
+
+ // add "india" to the start of this array using spread;
+
+ let countries = ["USA","UK"];
+ countries = ["india", ...countries];
+ console.log(countries)
