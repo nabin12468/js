@@ -128,7 +128,26 @@ let arr = [1,2,3,4,5];
 let [a,b] = arr;    //d structure
 
 
-*/
 
 let arr = [1,2,3,4,5,6,7,8,9];
 let arr2 = [...arr];
+
+
+
+// Add "Mango" at the end and "Pineapple" at the beginning of this array:
+
+ 
+let fruits = ["Apple","Banana"];
+fruits.push("mango");
+fruits.unshift("pineapple");
+console.log(fruits)
+
+*/
+
+
+//insert "Red" and "Blue" at index 1 in this array:
+
+let colors = ["Green","Yellow"];
+colors.splice(1,0,"Red","Blue");
+console.log(colors)
+
