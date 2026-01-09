@@ -114,10 +114,21 @@ let any = arr.some(function(val){
 });
 console.log(any);
 
-*/
+
 //every
 let arr = [36,55,66,77]
 let any = arr.every(function(val){
     return val>70;
 });
 console.log(any);
+
+
+
+let arr = [1,2,3,4,5];
+let [a,b] = arr;    //d structure
+
+
+*/
+
+let arr = [1,2,3,4,5,6,7,8,9];
+let arr2 = [...arr];
