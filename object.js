@@ -185,7 +185,7 @@ const user = {
 };
 let {"first-name": firstName} = user;
 
-*/
+
 
 //use for-in to log all keys in this object:
 
@@ -197,3 +197,30 @@ const course = {
 for(let key in course){
     console.log(key);
 }
+
+
+//use object.entries() to print all key-value pairs as:
+
+const course = {
+    title: "javaScript",
+    duration: "4 weeks",
+};
+
+Object.entries(course).forEach(function(val){
+    console.log(val[0] + ": " + val[1]);
+});
+
+
+
+const original  = {a: 1, b: 2};
+const copy = {...original};
+
+
+
+// deep clone the obj1 safely.
+
+const obj1 = { info: {score: 80} };
+let newobj = JSON.parse(JSON.stringify(obj1));
+newobj.info.score = 100;
+
+*/
