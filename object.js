@@ -106,7 +106,7 @@ address: {
 };
 obj?.address?.city
 
-*/
+
 
 
 //computed properties
@@ -124,3 +124,25 @@ address: {
 [role]: "harsh",
 
 };
+
+
+
+//Can an object key be a number or boolean? Try this 
+const obj ={
+    true: "yes",
+    42: "answer",
+
+};
+console.log(obj[42]);
+
+
+
+//access the value of "first-name" from this object:
+
+const user = {
+    "first-name": "nabin",
+};
+
+user['first-name']
+
+*/
