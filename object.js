@@ -224,3 +224,8 @@ let newobj = JSON.parse(JSON.stringify(obj1));
 newobj.info.score = 100;
 
 */
+
+//Rewrite this safely using optional chaining:
+
+const person = {};
+console.log(person?.profile?.name);
