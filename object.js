@@ -145,4 +145,55 @@ const user = {
 
 user['first-name']
 
+
+
+//given a dynamic key let key = "age", how will you access user[key]?
+
+let key = "key";
+
+const user = {
+    age: 26,
+};
+console.log(user[key]);
+
+
+
+
+
+//from the object below, print the latitude:
+
+const user = {
+    name: "nabin",
+    address: {
+        city:"butwal",
+        pin:12345,
+        location: {
+            lat: 23.2,
+            lng: 77.9
+        },
+
+    },
+};
+user?.location?.lat
+
+
+//destructive the key "first-name" as a variable called firstname.
+
+const user = {
+    "first-name": "nabin",
+
+};
+let {"first-name": firstName} = user;
+
 */
+
+//use for-in to log all keys in this object:
+
+const course = {
+    title: "javaScript",
+    duration: "4 weeks",
+};
+
+for(let key in course){
+    console.log(key);
+}
