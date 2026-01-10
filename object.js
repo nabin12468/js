@@ -73,7 +73,7 @@ email: "test@yoyo .com",
 
 let obj2 = {...obj};
 
-*/
+
 
 //deep clone
 
@@ -89,3 +89,38 @@ address: {
 };
 
 let obj2 = JSON.parse(JSON.stringify(obj))
+
+
+
+//optional chaining
+
+let obj = {
+name: "nabin",
+age: 19,
+email: "test@yoyo .com",
+address: {
+    city: "butwal",
+
+},
+
+};
+obj?.address?.city
+
+*/
+
+
+//computed properties
+
+let role = "admin";
+
+let obj = {
+name: "nabin",
+age: 19,
+email: "test@yoyo .com",
+address: {
+    city: "butwal",
+
+},
+[role]: "harsh",
+
+};
