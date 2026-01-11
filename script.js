@@ -6,3 +6,23 @@
 // attribute
 // event liseners
 
+/*
+<h1 id ="abcd"></h1>
+let abcd = document.getElementById("abcd");
+console.log(abcd)
+
+
+
+
+
+//<h1 class ="abcd"></h1>
+//<h1 class ="abcd"></h1>
+//<h1 class ="abcd"></h1>
+let abcd = document.getElementsByClassName("abcd")
+console.dir(abcd);
+
+
+*/
+
+let abcd = document.querySelector("h1")  //querySelector always select first h1
+console.dir("abcd")
