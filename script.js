@@ -59,8 +59,33 @@ img.setAttribute("src", "https://plus.unsplash.com/premium_photo-1670275658563-4
 let a = document.querySelector("a")
 console.log(a.getAttribute("href"));
 
-*/
+
 //removeAttribute
 let a = document.querySelector("a")
 a.removeAttribute("href");
+
+
+
+//Dynamic Dom manipulation createElement,appendChild,removeChild,prepend
+
+//create element
+//append/prepend karo jaha bhi element chahiyw waha
+
+let h1 = document.createElement("h1");
+h1.textContent = "hello ji kaise ho";
+document.querySelector("body").prepend(h1);
+console.log(h1);
+
+
+
+//apendChild
+
+let h1 = document.createElement("h1");
+h1.textContent = "hey i am nabin and you";
+
+document.querySelector("div").prepend(h1);
+
+*/
+
+//style update via.style and classlist (add,remove,toogle)
 
