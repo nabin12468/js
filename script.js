@@ -106,8 +106,43 @@ console.dir(h1);
 //h1.classList.remove("hoho")
 h1.classList.toggle("hoho");
 
-*/
+
 
 // what does getElementsByclassName return ? Is it an array?
 let cl = document.getElementsByClassName("color");
 console.log(cl);                    // they return html collection like array but not array
+
+
+
+
+
+//(Q) use querySelector to select all buttons with class ".buy-now".
+
+let buynow = document.querySelector(".buy-now");
+console.log(buynow)
+
+
+
+//(Q) T1: Select the heading of a page by ID and change its text to "Welcome to sheryians!".
+
+let hoho = document.querySelector("#hoho");
+hoho.textContent = "Welcome to Sheryians!";
+
+
+
+// select all <li> elements and print their text using a loop.
+
+let lis = document.querySelectorAll("li");
+lis. forEach(function(val){
+    console.log(val.textContent);
+})
+
+OR
+let lis = document.querySelectorAll("li");
+for(let i=0; i< lis.length; i++){
+console.log([i], textContent);
+}
+
+*/
+
+//(Q) 
