@@ -85,7 +85,16 @@ h1.textContent = "hey i am nabin and you";
 
 document.querySelector("div").prepend(h1);
 
-*/
+
 
 //style update via.style and classlist (add,remove,toogle)
 
+// js se css badlna
+
+let h1 = document.querySelector("h1");
+h1.style.color = "black";
+h1.style.backgroundColor = "#cab278";
+h1.style.fontFamily = "Gilroy";
+console.dir(h1)
+
+*/
