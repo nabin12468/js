@@ -143,6 +143,24 @@ for(let i=0; i< lis.length; i++){
 console.log([i], textContent);
 }
 
+
+
+//(Q) when should you use textContent instead of innerText?
+
+
+//(Q) Select a paragraph and replace its content with:
+/* <b>Update </b> by javaScript 
+
+let p = document.querySelector("p");
+
+p.innerHTML = "<b>Updated </b> by javaScript";
+
 */
 
-//(Q) 
+
+// how do you get the src of an image using javaScript
+
+
+let img = document.querySelector('img');
+//console.log(img.src);
+console.log(img.getAttribute("src"));
