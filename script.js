@@ -155,7 +155,7 @@ let p = document.querySelector("p");
 
 p.innerHTML = "<b>Updated </b> by javaScript";
 
-*/
+
 
 
 // how do you get the src of an image using javaScript
@@ -164,3 +164,27 @@ p.innerHTML = "<b>Updated </b> by javaScript";
 let img = document.querySelector('img');
 //console.log(img.src);
 console.log(img.getAttribute("src"));
+
+
+
+// what does setAttribute () do?
+document.querySelector("img").setAttribute("src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkwr0H12gGXUjANhVcVG0ZS_twauyyNudXaA&s")
+
+
+
+let a = document.querySelector("a")
+a.href = "https://www.sheryians.com"
+
+
+
+//add a title attribute to a div dynamically.
+
+let div = document.querySelector("div");
+
+div.setAttribute("title", "some info");
+
+*/
+
+// Remove the disabled attribute from a button
+
+document.querySelector("button")
