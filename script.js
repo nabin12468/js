@@ -97,4 +97,17 @@ h1.style.backgroundColor = "#cab278";
 h1.style.fontFamily = "Gilroy";
 console.dir(h1)
 
+
+
+
+let h1 = document.querySelector("h1");
+console.dir(h1);
+//h1.classList.add("hoho")
+//h1.classList.remove("hoho")
+h1.classList.toggle("hoho");
+
 */
+
+// what does getElementsByclassName return ? Is it an array?
+let cl = document.getElementsByClassName("color");
+console.log(cl);                    // they return html collection like array but not array
