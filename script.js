@@ -183,8 +183,41 @@ let div = document.querySelector("div");
 
 div.setAttribute("title", "some info");
 
-*/
+
 
 // Remove the disabled attribute from a button
 
-document.querySelector("button")
+let btn = document.querySelector("button");
+btn.removeAttribute("disabled");
+
+
+
+
+// Create a new list item <li>New Task</li> and add it to the end of a <ul>
+
+
+let ul = document.querySelector("ul");
+let li = document.createElementa("li");
+
+li.textContent = "New Task";
+
+ul.appendChild();
+
+
+
+// Create a new image elements with a placeholder source and add it at the top of a div.
+
+let img = document.createElement("img");
+img.setAttribute("src", "https://t4.ftcdn.net/jpg/06/57/37/01/360_F_657370150_pdNeG5pjI976ZasVbKN9VqH1rfoykdYU.jpg")
+
+img.classList.add("placeholder");
+document.querySelector("div").prepend(img);
+
+*/
+
+// select the first item in a list and delete it from the DOM.
+
+let ul = document.querySelector("ul");
+let li = document.querySelector("li");
+
+ul.removeChild(li)
