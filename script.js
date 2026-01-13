@@ -235,5 +235,18 @@ li.forEach(function(elem){
     elem.classList.add("highlight");
 });
 
+
+
+// Toggle a class active on a button when clicked (Hint: Use classList.toggle()).
+
+//set the font size of all <p> elements to 18px using .style.
+
+
+
+let p =  document.querySelectorAll("p");
+p.forEach(function(elem){
+    elem.style.fontsize = "50px";
+})
+
 */
 
