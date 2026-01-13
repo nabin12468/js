@@ -213,7 +213,7 @@ img.setAttribute("src", "https://t4.ftcdn.net/jpg/06/57/37/01/360_F_657370150_pd
 img.classList.add("placeholder");
 document.querySelector("div").prepend(img);
 
-*/
+
 
 // select the first item in a list and delete it from the DOM.
 
@@ -221,3 +221,19 @@ let ul = document.querySelector("ul");
 let li = document.querySelector("li");
 
 ul.removeChild(li)
+
+
+
+
+//Add a highlight class to every even item in a list .
+
+let li = document.querySelectorAll("ul li:nth-child(2n");
+console.log(li);
+
+
+li.forEach(function(elem){
+    elem.classList.add("highlight");
+});
+
+*/
+
