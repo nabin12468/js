@@ -70,7 +70,7 @@ inp.addEventListener("input", function (dets){
     };
 })
 
-*/
+
 
 //change event : tab chlta hai jab aapka koi input select ya textarea mein koi change hojaaye.
 
@@ -80,4 +80,40 @@ let device = document.querySelector("#device");
 sel.addEventListener("change", function (dets){
     //console.log(dets.target.value);
     device.textContent = `${dets.target.value} Device Selected`;
+});
+
+
+
+
+//approach
+
+let h1 = document.querySelector("h1");
+
+window.addEventListener("keydown", function(dets){
+    if(dets.key== ""){
+        h1.textContent= "SPC";
+
+    }
+    else{
+        h1.textContent = dets.key;
+    }
+})
+
+*/
+
+//change
+
+let btn = document.querySelector("#btn");
+let fileinp = document.querySelector("#fileinp");
+
+btn.addEventListener("click", function(){
+    fileinp.click();
+});
+
+fileinp.addEventListener("change", function(dets){
+    const file = dets.target.files[0];
+    if(file){
+        btn.textContent= file.name;
+    }
+    
 });
