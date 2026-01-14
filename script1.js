@@ -21,10 +21,50 @@ p.addEventListener("click", function(){
     p.style.color = "green";
 })
 
-*/
+
 
 let p = document.querySelector("p");
 
 p.addEventListener("dblclick", function(){
     p.style.color = "yellow";
 });
+
+//eventlistener
+
+Element.addEventListener("event name", function(){
+    Element.style.color = ""
+})
+    
+
+
+   //removeEventListener
+
+let p = document.querySelector("p");
+
+function dblclick(){
+    p.style.color = "yellow";
+};
+
+p.addEventListener("dblclick",dblclick);
+p.removeEventListener("dblclick",dblclick);
+
+
+
+//Common events:click,input,change,submit,mouseover,keyup
+
+
+let inp = document.querySelector("input");
+
+inp.addEventListener("input", function (){
+    console.log("typed");
+})
+
+*/
+
+let inp = document.querySelector("input");
+
+inp.addEventListener("input", function (dets){
+    if (dets.data !== null){
+        console.log(dets.data);
+    };
+})
