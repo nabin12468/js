@@ -121,3 +121,10 @@ fileinp.addEventListener("change", function(dets){
 */
 
 //submit
+
+
+let form = document.querySelector("form");
+
+form.addEventListener("submit", function(dets){
+    dets.preventDefault();
+})
