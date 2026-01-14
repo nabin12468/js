@@ -59,7 +59,8 @@ inp.addEventListener("input", function (){
     console.log("typed");
 })
 
-*/
+
+//inputlistener
 
 let inp = document.querySelector("input");
 
@@ -68,3 +69,15 @@ inp.addEventListener("input", function (dets){
         console.log(dets.data);
     };
 })
+
+*/
+
+//change event : tab chlta hai jab aapka koi input select ya textarea mein koi change hojaaye.
+
+let sel = document.querySelector("select");
+let device = document.querySelector("#device");
+
+sel.addEventListener("change", function (dets){
+    //console.log(dets.target.value);
+    device.textContent = `${dets.target.value} Device Selected`;
+});
