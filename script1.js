@@ -99,7 +99,7 @@ window.addEventListener("keydown", function(dets){
     }
 })
 
-*/
+
 
 //change
 
@@ -117,3 +117,7 @@ fileinp.addEventListener("change", function(dets){
     }
     
 });
+
+*/
+
+//submit
