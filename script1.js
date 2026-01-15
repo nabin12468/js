@@ -138,7 +138,8 @@ form.addEventListener("submit", function(dets){
 
 */
 let form = document.querySelector("form");
-let inputs = document.querySelectorAll("input");
+let inputs = document.querySelectorAll("inputS");
+let main = document.querySelector("#main");
 
 form.addEventListener("submit", function(dets){
     dets.preventDefault();
@@ -152,13 +153,20 @@ form.addEventListener("submit", function(dets){
 
 
     let img = document.createElement("img");
-         img.setAttribute("src", "https://i.redd.it/3zebq8p7bra71.jpg");
+         img.setAttribute("src", inputs[0].value );
     
 
          let h3 = document.createElement("h3");
+         h3.textContent = inputs[1].value;
          let h5 = document.createElement("h5");
+         h5.textContent = inputs[2].value;
          let p = document.createElement("p");
+         p.textContent = inputs[3].value;
 
+    profile.appendChild(img);
     card.appendChild(profile);
-    console.log(card);
+    card.appendChild(h3);
+    card.appendChild(h5);
+    card.appendChild(p);
+    main.appendChild(card);
 });
