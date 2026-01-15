@@ -118,7 +118,7 @@ fileinp.addEventListener("change", function(dets){
     
 });
 
-*/
+
 
 //submit
 
@@ -135,3 +135,30 @@ form.addEventListener("submit", function(dets){
         inputs[3].value,
     );
 })
+
+*/
+let form = document.querySelector("form");
+let inputs = document.querySelectorAll("input");
+
+form.addEventListener("submit", function(dets){
+    dets.preventDefault();
+
+
+    let card = document.createElement("div");
+    card.classList.add("card");
+
+    let profile = document.createElement("div");
+    profile.classList.add("profile");
+
+
+    let img = document.createElement("img");
+         img.setAttribute("src", "https://i.redd.it/3zebq8p7bra71.jpg");
+    
+
+         let h3 = document.createElement("h3");
+         let h5 = document.createElement("h5");
+         let p = document.createElement("p");
+
+    card.appendChild(profile);
+    console.log(card);
+});
