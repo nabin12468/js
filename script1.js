@@ -136,7 +136,7 @@ form.addEventListener("submit", function(dets){
     );
 })
 
-*/
+
 let form = document.querySelector("form");
 let inputs = document.querySelectorAll("inputS");
 let main = document.querySelector("#main");
@@ -176,5 +176,22 @@ form.addEventListener("submit", function(dets){
         inp.value = "";
         }
     });
-    
+
+});
+
+*/
+
+//mouseover mousemove
+
+let abcd = document.querySelector("#abcd");
+
+abcd.addEventListener("mouseover",fuction(){
+    abcd.style.backgroundColor = "yellow";
+});
+
+
+
+
+abcd.addEventListener("mouseout",fuction(){
+    abcd.style.background = "red";
 });
