@@ -169,4 +169,12 @@ form.addEventListener("submit", function(dets){
     card.appendChild(h5);
     card.appendChild(p);
     main.appendChild(card);
+
+
+    inputs.forEach(function (inp){
+        if(inp.type !== "submit"){
+        inp.value = "";
+        }
+    });
+    
 });
