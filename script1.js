@@ -225,8 +225,11 @@ hoho.addEventListener("click", function (dtes){
 */
 
 // jispe event aayega agar uspar listener nahi hua to humaara event uske parent par listener dhundhega aur aisa krte krte upar ki taraf move karega
+//event bubbling
 
-
-
+document.querySelector("#nav")
+.addEventListener("click", function (){
+    alert("clicked");
+});
 
 
