@@ -196,7 +196,7 @@ abcd.addEventListener("mouseout",fuction(){
     abcd.style.background = "red";
 });
 
-*/
+
 
 // mousemove
 
@@ -208,3 +208,19 @@ window.addEventListener("mousemove", function (dets){
     abcd.style.top = dets.clientY + "px";
     abcd.style.top = dets.clientX + "px";
 });
+
+*/
+
+
+//keyup
+
+//Event object: type
+
+let hoho = document.querySelector("#hoho")
+
+hoho.addEventListener("click", function (dtes){
+    console.log(dets);
+})
+
+
+
