@@ -62,7 +62,7 @@
     font-size:12px;
     margin-top:10px;
 }
-    */
+    
     html,
     body{
         width: 100%;
@@ -76,6 +76,38 @@
         height: 400px;
         background-color: red;
     }
+
+    */
+     html,
+    body{
+        width: 100%;
+        height: 100%;
+    }
+
+    #main{
+        width: 100%;
+        height: 100%;
+        background-color: #222;
+    }
+    #nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        height: 100%;
+        background-color: #444;
+
+    }
+    a{
+        color:white !important;
+
+    }
+    button{
+        padding: 12px 22px;
+        background-color: red;
+        border-radius:5px;
+        border: none;
+        }
     </style>
  
 </head>
@@ -84,13 +116,22 @@
 
 
 
+    <div id="main">
+        <div id="nav">
+            <a href="">home</a>
+            <a href="">about</a>
+            <button>Click and follow</button>
+        </div>
+    </div>
+<!--
+
 <div id="hoho">
 
 </div>
 
 
 
-    <!--<div id="main">
+    <div id="main">
 <form action="">
      <input type = "text" placeholder="profile pic">
     <input type = "text" placeholder="name">

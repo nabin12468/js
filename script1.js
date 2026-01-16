@@ -209,7 +209,6 @@ window.addEventListener("mousemove", function (dets){
     abcd.style.top = dets.clientX + "px";
 });
 
-*/
 
 
 //keyup
@@ -220,7 +219,14 @@ let hoho = document.querySelector("#hoho")
 
 hoho.addEventListener("click", function (dtes){
     console.log(dets);
-})
+});
+
+
+*/
+
+// jispe event aayega agar uspar listener nahi hua to humaara event uske parent par listener dhundhega aur aisa krte krte upar ki taraf move karega
+
+
 
 
 
