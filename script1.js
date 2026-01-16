@@ -179,9 +179,9 @@ form.addEventListener("submit", function(dets){
 
 });
 
-*/
+//mouseover 
 
-//mouseover mousemove
+//mouseover 
 
 let abcd = document.querySelector("#abcd");
 
@@ -195,3 +195,7 @@ abcd.addEventListener("mouseover",fuction(){
 abcd.addEventListener("mouseout",fuction(){
     abcd.style.background = "red";
 });
+
+*/
+
+// mousemove
