@@ -199,3 +199,12 @@ abcd.addEventListener("mouseout",fuction(){
 */
 
 // mousemove
+
+
+
+let add = document.querySelector("#abcd");
+
+window.addEventListener("mousemove", function (dets){
+    abcd.style.top = dets.clientY + "px";
+    abcd.style.top = dets.clientX + "px";
+});
