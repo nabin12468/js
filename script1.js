@@ -261,3 +261,12 @@ b.addEventListener("click", function (){
 a.addEventListener("click", function (){
     console.log("c clicked");
 });
+
+
+//jab bhi aap click krte ho ya koi bhi raise krte ho to aapko
+//jo event flow do phases mein chalta hai:
+
+// phase 1: event top level element se neeche ki taraf aayega
+//phase 2: event raised element se parent ki taraf jaayega
+
+//aur pahle phase 1 hoti hai
