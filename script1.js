@@ -240,7 +240,7 @@ ul.addEventListener("click", function (dets){
     dets.target.classList.toggle("lt");
 })
 
-*/
+
 
 //Event capturing
 
@@ -254,13 +254,15 @@ btn.addEventListener("click", function (){
 });
 c.addEventListener("click", function (){
     console.log("c clicked");
-});
+}, true
+);
 b.addEventListener("click", function (){
     console.log("b clicked");
 });
 a.addEventListener("click", function (){
     console.log("c clicked");
-});
+}, true
+);
 
 
 //jab bhi aap click krte ho ya koi bhi raise krte ho to aapko
@@ -270,3 +272,9 @@ a.addEventListener("click", function (){
 //phase 2: event raised element se parent ki taraf jaayega
 
 //aur pahle phase 1 hoti hai
+
+*/
+
+//live character counter
+
+
