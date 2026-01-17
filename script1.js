@@ -277,4 +277,9 @@ a.addEventListener("click", function (){
 
 //live character counter
 
+let inp = document.querySelector("input");
+let span = document.querySelector("span");
 
+inp.addEventListener("input", function(){
+   span.textContent = inp.value.length
+});
