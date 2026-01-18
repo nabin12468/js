@@ -273,7 +273,7 @@ a.addEventListener("click", function (){
 
 //aur pahle phase 1 hoti hai
 
-*/
+
 
 //live character counter
 
@@ -292,3 +292,7 @@ inp.addEventListener("input", function(){
     span.style.color = "white";
    }
 });
+
+*/
+
+//form and form validation
