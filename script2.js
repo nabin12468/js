@@ -37,3 +37,17 @@ form.addEventListener("submit", function(dets){
 
 //email/password validator
 
+
+
+let email = document.querySelector("#email");
+let password = document.querySelector("#password");
+let form = dodcument.querySelector("form");
+
+form.addEventListener("submit", function (dets){
+    dets.preventDefault();
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+
+
+});
+
