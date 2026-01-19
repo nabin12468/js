@@ -18,7 +18,7 @@ form.addEventListener("submit", function (dets){
     
 });
 
-*/
+
 
 //js-based vallidation
 
@@ -32,3 +32,8 @@ form.addEventListener("submit", function(dets){
     let ans=  regex.test("harsh@test.com")
     console.log(ans);
 });
+
+*/
+
+//email/password validator
+
