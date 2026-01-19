@@ -19,6 +19,37 @@ hide{
 
 </head>
 <body>
+    
+
+
+    
+
+  <div class="container">
+    <h2>Login Validation</h2>
+
+    <form id="loginForm">
+      <!-- Email -->
+      <div class="input-group">
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Enter your email">
+        <small class="error" id="emailError"></small>
+      </div>
+
+      <!-- Password -->
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password">
+        <small class="error" id="passwordError"></small>
+      </div>
+
+      <button type="submit">Validate</button>
+    </form>
+  </div>
+
+
+
+    <!--
+    
     <form>
 <input pattern = "[a-z]{3,8}" required minlength ="3" maxlength="10" id="name" type="text" placeholder="name">
 <div id="hide">
@@ -47,6 +78,7 @@ hide{
 <input type="submit">
 
 </form>
+-->
 
 <script src="script2.js"></script>
 </body>
