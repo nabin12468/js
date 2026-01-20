@@ -58,6 +58,7 @@ if(!emailans){
 }
 if(!passwordans){
     document.querySelector("#passwordError").textContent = "password is incorrect"
+    document.querySelector(".error").style.display = "initial";
 }
 });
 
