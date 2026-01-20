@@ -33,7 +33,7 @@ form.addEventListener("submit", function(dets){
     console.log(ans);
 });
 
-*/
+
 
 //email/password validator
 
@@ -64,13 +64,21 @@ let isValid = true;
 if(!emailans){
     document.querySelector("#emailError").textContent = "Email is incorrect";
     document.querySelector("#emailError").style.display = "initial";
-    
+    isValid = false;
 
 }
 if(!passwordans){
     document.querySelector("#passwordError").textContent = "password is incorrect";
     document.querySelector("#passwordError").style.display = "initial";
     
+    isValid = false;
+}
+if(isValid){
+    document.querySelector("#resultMessage").textContent = "everything is correct"
 }
 });
 
+
+*/
+
+//interactive feedback form with error highlights
