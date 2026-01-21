@@ -50,16 +50,24 @@ let interval = setInterval(function (){
 */
 
 
-//downlode 
+//downlode simulation
 let count = 0;
 let sec=5;
 let progress = document.querySelector(".progress-bar");
 let percentText = document.querySelector("#percentText");
 
-setInterval(function(){
+ let intv = setInterval(function(){
     if(count<=99){
         count++;
        progress.style.width = `${count}%`;
        percentText.textContent = `${count}%`;
     }
-},  sec * 1000/100);
+
+    else{
+        document.querySelector("p").textContent ="Downloded.";
+        clearInterval(intv);
+    }
+}, 
+
+( sec * 1000/100)
+);
