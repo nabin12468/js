@@ -43,7 +43,7 @@ body {
 
 @keyframes download {
   0% {
-    width: 10%;
+    width: 0%;
   }
   100% {
     width: 100%;
