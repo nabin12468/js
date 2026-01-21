@@ -47,7 +47,6 @@ let interval = setInterval(function (){
     else clearInterval(interval);
 }, 1000);
 
-*/
 
 
 //downlode simulation
@@ -71,3 +70,8 @@ let percentText = document.querySelector("#percentText");
 
 ( sec * 1000/100)
 );
+
+*/
+
+//Auto-hide alert banner after 3s
+
