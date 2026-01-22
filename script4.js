@@ -51,6 +51,16 @@ let val = localStorage.setItemItem("name" , "nunu");
 
 document.cookie = "email=abc@gmail.com"
 
-*/
+
 
 //JSON.stringify
+
+localStorage.setItem("friends", JSON.stringify(["abya","nabin","parbin"]));
+
+
+// localstorage mein array,object use nai kar skate isliya hamla string ma convert garxam
+// we use JSON.parse for return in it's original data
+
+*/
+let fr = JSON.parse(localStorage.getItem("friends"));
+console.log(fr);
