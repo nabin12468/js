@@ -32,6 +32,25 @@ let val = localStorage.removeItem("name");
 
 let val = localStorage.setItemItem("name" , "nunu");
 
+
+
+//sessionStorage  API  -> we use this for temporary data store
+
+ let val = sessionStorage.setItem("name", "nabin")
+
+
+
+//cookies
+
+// browser  mein chhota data store karne ke liye cookies ka istemaal hota hai
+
+// cookies -> ~4kb
+//localStorage sessionStorage - ~5mb
+
+//cookies mein jo bhi data saore karoge wo data page reload par automatically sever par jaayega
+
+document.cookie = "email=abc@gmail.com"
+
 */
 
-//sessionStorage
+//JSON.stringify
