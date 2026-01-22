@@ -11,8 +11,8 @@
 //LocalStorage
 // store kaise kare     - setItem
 //data fetch kaise kare - getItem
-//remove kaise kare 
-//update kaise kare
+//remove kaise kare     -removeItem
+//update kaise kare     -setItem
 
 /*
 localStorage.setItem("name", "nabin");
@@ -22,10 +22,16 @@ localStorage.setItem("name", "nabin");
 
 let val = localStorage.getItem("name");
 
-*/
+
 
 //for remove anything
 let val = localStorage.removeItem("name");
 
 
 
+
+let val = localStorage.setItemItem("name" , "nunu");
+
+*/
+
+//sessionStorage
