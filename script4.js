@@ -66,41 +66,35 @@ let fr = JSON.parse(localStorage.getItem("friends"));
 console.log(fr);
 
 */
-function setDarkOrLight(){
-if(window.matchMedia('(prefers-color-scheme: dark)').matches){
-    document.body.classList.add("dark");
-}
-else{
-    document.body.classList.add("light");
-}
-}
-setDarkOrLight();
+const btn = document.querySelector("button");
+const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
 
+function applyTheme(theme) {
+  document.body.classList.remove("dark", "light");
+  document.body.classList.add(theme);
+}
 
-let btn = document.querySelector("button")
+function getSystemTheme() {
+  return mediaQuery.matches ? "dark" : "light";
+}
 
-window.matchMedia("(prefers-color-scheme: dark)").addEventListener
-("change", function(){
- setDarkOrLight()
+// Initial theme load
+const savedTheme = localStorage.getItem("theme");
+applyTheme(savedTheme || getSystemTheme());
+
+// Listen for system theme change (only if user hasn’t chosen)
+mediaQuery.addEventListener("change", () => {
+  if (!localStorage.getItem("theme")) {
+    applyTheme(getSystemTheme());
+  }
 });
 
-btn.addEventListener("click", function(){
-   if(document.body.classList.contains("dark")){
-    document.body.classList.remove("dark");
-    document.body.classList.add("light");
+// Button toggle
+btn.addEventListener("click", () => {
+  const newTheme = document.body.classList.contains("dark")
+    ? "light"
+    : "dark";
 
-    localStorage.setItem("theme", "light");
-
-   }
-   else{
-    document.body.classList.remove("light");
-    document.body.classList.add("dark");
-    localStorage.setItem("theme", "dark");
-
-   }
+  applyTheme(newTheme);
+  localStorage.setItem("theme", newTheme);
 });
-
-document.body.classList.add(localStorage.grtItem("theme"));
-
-
-
