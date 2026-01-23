@@ -66,4 +66,11 @@ let fr = JSON.parse(localStorage.getItem("friends"));
 console.log(fr);
 
 */
-
+function setDarkOLight(){
+if(window.matchMedia('(prefers-color-scheme: dark)').matches){
+    document.body.classList.add("dark");
+}
+else{
+    document.body.classList.add("light");
+}
+}

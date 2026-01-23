@@ -4,7 +4,7 @@
     --bg-light: #ffffff;
     --text-light: #1a1a1a;
 
-    --bg-dark: #1e1e1e;
+    /* --bg-dark: #1e1e1e; */
     --text-dark: #f5f5f5;
 
 }
@@ -15,12 +15,12 @@ body.light{
 }
 
 body.dark {
-     background-color: var(--bg-light);
-    color: var(--text-dark);
+     background-color: var(--bg-dark);
+    color: var(--text-light);
 }
 
 body {
-    margin: 100vh;
+    margin: 10vh;
     font-family: "Helvetica Now Display", Helvetica, sans-serif;
     transition: background-color 0.3s ease;
 
