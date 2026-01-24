@@ -89,7 +89,7 @@ mediaQuery.addEventListener("change", () => {
   }
 });
 
-// Button toggle
+
 btn.addEventListener("click", () => {
   const newTheme = document.body.classList.contains("dark")
     ? "light"
