@@ -33,5 +33,12 @@ display: block;
     filter: blur(10px);
     z-index: 1;
     mask-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+    mask-size: 100% 100%;
+    mask-repeat: no-repeat;
 
+        -webkit-mask-image: linear-gradient(
+            to top,
+            rgba(0,0,0,1),
+            rgba(0,0,0,0)
+        )
 }
