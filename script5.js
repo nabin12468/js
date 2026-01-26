@@ -88,3 +88,6 @@ inp.addEventListener("input", function () {
   document.querySelector(".cards").innerHTML = "";
   showUsers(newUsers);
 });
+
+
+

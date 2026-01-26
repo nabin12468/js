@@ -1,0 +1,1 @@
+// noted app(save text to localStorage)
