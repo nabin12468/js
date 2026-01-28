@@ -5,3 +5,9 @@
 // buttons ko handle karna hai
 // filters ko handle karna hai
 
+let addNote = document.querySelector("#add-note");
+let fromContainer = document.querySelector(".form-container");
+
+addNote.addEventListener("click", function(){
+    
+})
