@@ -9,5 +9,5 @@ let addNote = document.querySelector("#add-note");
 let fromContainer = document.querySelector(".form-container");
 
 addNote.addEventListener("click", function(){
-    
+    addEventListener
 })
