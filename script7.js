@@ -15,4 +15,10 @@ function abcd(){
     console.log(a);
 }
     */
-   
+ 
+// Executive context: memory creation & executive phase
+
+// executioin content
+
+//js sabse pahle jaise hi aapka function dekhta hai ssabse pahle js banaata hai execution context,ye ek process hai jo ki do different phases mein chalta hai, memory phase and doosre ka naam hai execution phase
+
