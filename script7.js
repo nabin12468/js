@@ -63,3 +63,25 @@ fn(); // 10
 // -global pollutions
 
 //how variable are preserved in closure
+
+
+// closures hote hai functions jo ki parent fnc ke andar ho aur andar waala functiion return ho raha ho, and returning fnc use kare,parent function ko koi variable
+
+// ye sach hai fnc ke khatam hone pe aapka fnc and uske variables khtm hojaate hai,jab bhi closure banta hai to aapka fnc aur uske variables ka ek backlink banaya jaata hai aur uska naam hota haio [[environment]] 
+
+
+//counters
+
+function countForMe(){
+    let c = 0;
+    return function(){
+        c++;
+        console.log(c);
+    };
+}
+
+let counter1 = countForMe();
+counter1();
+counter1();
+counter1();
+counter1();
