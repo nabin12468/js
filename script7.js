@@ -85,3 +85,22 @@ counter1();
 counter1();
 counter1();
 counter1();
+
+//encapsulation
+
+function clickLimiter() {
+    let click = 0;
+return function (){
+    if(click < 5){
+        click++;
+        console.log("Button clicked", ${click}, "times");
+    } else {
+        console.log("Click limit reached");
+}
+};
+}
+
+let fnc = clickLimiter();
+fnc();
+fnc();
+
