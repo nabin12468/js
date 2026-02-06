@@ -14,7 +14,7 @@ function abcd(){
     var a =  12;
     console.log(a);
 }
-    */
+    
  
 // Executive context: memory creation & executive phase
 
@@ -86,6 +86,7 @@ counter1();
 counter1();
 counter1();
 
+
 //encapsulation
 
 function clickLimiter() {
@@ -104,3 +105,5 @@ let fnc = clickLimiter();
 fnc();
 fnc();
 
+*/
+//toaster
