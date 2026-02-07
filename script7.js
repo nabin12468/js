@@ -105,5 +105,6 @@ let fnc = clickLimiter();
 fnc();
 fnc();
 
-*/
+
 //toaster
+
