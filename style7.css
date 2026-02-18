@@ -2,4 +2,5 @@ hi{
     background-color: red;
     color:black;
     pointer-events: none;
+    visibility: hidden;
 }
