@@ -3,4 +3,5 @@ hi{
     color:black;
     pointer-events: none;
     visibility: hidden;
+    enable-background: 0%;
 }
