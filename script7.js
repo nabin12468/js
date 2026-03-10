@@ -107,9 +107,19 @@ fnc();
 
 */
 //toaster
-function createToaster(){
+function createToaster(config){
+    return function () {
+
+    };
 
     
 }
+
+createToaster({
+    positionX: "right",
+    positionY: "top",
+    theme: "dark",
+    duration: 3,
+})
 
 
