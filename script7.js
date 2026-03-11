@@ -116,10 +116,7 @@ function createToaster(config){
 }
 
 createToaster({
-    positionX: "right",
-    positionY: "top",
-    theme: "dark",
-    duration: 3,
+   
 })
 
 
