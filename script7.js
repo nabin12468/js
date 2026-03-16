@@ -108,7 +108,7 @@ fnc();
 */
 //toaster
 function createToaster(config){
-     function () {
+    return function () {
 
     };
 
