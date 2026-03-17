@@ -7,7 +7,7 @@
 // event liseners
 
 /*
-<h1 id ="abcd">hello</h1>
+<h1 id ="abcd">hello everyone</h1>
 let abcd = document.getElementById("abcd");
 console.log(abcd)
 
